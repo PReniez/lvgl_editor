@@ -8,7 +8,7 @@
  *********************/
 
 #include "speaker_volume_gen.h"
-#include "examples.h"
+#include "../../../examples.h"
 
 /*********************
  *      DEFINES

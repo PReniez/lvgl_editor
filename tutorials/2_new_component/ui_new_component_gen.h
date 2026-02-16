@@ -23,6 +23,8 @@ extern "C" {
     #include "lvgl/lvgl.h"
 #endif
 
+
+
 /*********************
  *      DEFINES
  *********************/
@@ -87,7 +89,7 @@ void ui_new_component_init_gen(const char * asset_path);
  *   POST INCLUDES
  **********************/
 
-/*Include all the widget and components of this library*/
+/*Include all the widgets, components and screens of this library*/
 #include "components/buttons/button_normal_gen.h"
 #include "components/buttons/button_warning_gen.h"
 #include "components/section_gen.h"

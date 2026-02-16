@@ -23,6 +23,8 @@ extern "C" {
     #include "lvgl/lvgl.h"
 #endif
 
+
+
 /*********************
  *      DEFINES
  *********************/
@@ -190,7 +192,7 @@ void examples_init_gen(const char * asset_path);
  *   POST INCLUDES
  **********************/
 
-/*Include all the widget and components of this library*/
+/*Include all the widgets, components and screens of this library*/
 #include "components/basic/bar/bar_gen.h"
 #include "components/basic/button/button_gen.h"
 #include "components/basic/card/card_gen.h"

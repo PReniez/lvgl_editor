@@ -8,7 +8,7 @@
  *********************/
 
 #include "screen_assets_gen.h"
-#include "ui_assets.h"
+#include "../ui_assets.h"
 
 /*********************
  *      DEFINES

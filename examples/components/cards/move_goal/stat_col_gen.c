@@ -8,7 +8,7 @@
  *********************/
 
 #include "stat_col_gen.h"
-#include "examples.h"
+#include "../../../examples.h"
 
 /*********************
  *      DEFINES

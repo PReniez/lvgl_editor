@@ -8,7 +8,7 @@
  *********************/
 
 #include "move_goal_gen.h"
-#include "examples.h"
+#include "../../../examples.h"
 
 /*********************
  *      DEFINES
@@ -87,7 +87,7 @@ lv_obj_t * move_goal_create(lv_obj_t * parent)
     lv_obj_set_style_flex_main_place(row_1, LV_FLEX_ALIGN_SPACE_BETWEEN, 0);
     lv_obj_set_width(row_1, lv_pct(100));
     lv_obj_t * circle_button_0 = circle_button_create(row_1, icon_minus);
-    lv_obj_add_subject_increment_event(circle_button_0, &move_goal_target, LV_EVENT_CLICKED, -100);
+    lv_subject_increment_dsc_t * subject_increment_event_0 = lv_obj_add_subject_increment_event(circle_button_0, &move_goal_target, LV_EVENT_CLICKED, -100);
     
     lv_obj_t * column_1 = column_create(row_1);
     lv_obj_set_style_flex_cross_place(column_1, LV_FLEX_ALIGN_CENTER, 0);
@@ -101,7 +101,7 @@ lv_obj_t * move_goal_create(lv_obj_t * parent)
     lv_obj_set_style_text_font(lv_label_3, geist_semibold_12, 0);
     
     lv_obj_t * circle_button_1 = circle_button_create(row_1, icon_plus);
-    lv_obj_add_subject_increment_event(circle_button_1, &move_goal_target, LV_EVENT_CLICKED, 100);
+    lv_subject_increment_dsc_t * subject_increment_event_1 = lv_obj_add_subject_increment_event(circle_button_1, &move_goal_target, LV_EVENT_CLICKED, 100);
     
     lv_obj_t * button_0 = button_create(card_0, "Set your goal");
     lv_obj_set_width(button_0, lv_pct(100));

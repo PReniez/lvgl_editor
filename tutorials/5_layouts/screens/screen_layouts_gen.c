@@ -8,7 +8,7 @@
  *********************/
 
 #include "screen_layouts_gen.h"
-#include "ui_layouts.h"
+#include "../ui_layouts.h"
 
 /*********************
  *      DEFINES

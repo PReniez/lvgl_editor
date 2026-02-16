@@ -1,6 +1,6 @@
 list(
   APPEND
-  PROJECT_SOURCES
+  LV_EDITOR_PROJECT_SOURCES
   ${CMAKE_CURRENT_LIST_DIR}/fonts/montserrat_14_c_array_data.c
   ${CMAKE_CURRENT_LIST_DIR}/fonts/montserrat_16_bin_file_data.c
   ${CMAKE_CURRENT_LIST_DIR}/fonts/Montserrat_Medium_ttf_data.c

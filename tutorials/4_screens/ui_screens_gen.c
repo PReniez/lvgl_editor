@@ -69,6 +69,7 @@ void ui_screens_init_gen(const char * asset_path)
 {
     char buf[256];
 
+
     /*----------------
      * Fonts
      *----------------*/

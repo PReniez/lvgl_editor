@@ -8,7 +8,7 @@
  *********************/
 
 #include "round_button_gen.h"
-#include "ui_data_binding.h"
+#include "../ui_data_binding.h"
 
 /*********************
  *      DEFINES
@@ -47,8 +47,8 @@ lv_obj_t * round_button_create(lv_obj_t * parent, const char * text, lv_subject_
     lv_label_set_text(lv_label_0, text);
     lv_obj_set_align(lv_label_0, LV_ALIGN_CENTER);
     
-    lv_obj_add_subject_increment_event(lv_button_0, subject, LV_EVENT_PRESSED, step);
-    lv_obj_add_subject_increment_event(lv_button_0, subject, LV_EVENT_LONG_PRESSED_REPEAT, step);
+    lv_subject_increment_dsc_t * subject_increment_event_0 = lv_obj_add_subject_increment_event(lv_button_0, subject, LV_EVENT_PRESSED, step);
+    lv_subject_increment_dsc_t * subject_increment_event_1 = lv_obj_add_subject_increment_event(lv_button_0, subject, LV_EVENT_LONG_PRESSED_REPEAT, step);
 
     LV_TRACE_OBJ_CREATE("finished");
 

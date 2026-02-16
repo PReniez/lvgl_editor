@@ -72,6 +72,7 @@ void ui_data_binding_init_gen(const char * asset_path)
 {
     char buf[256];
 
+
     /*----------------
      * Fonts
      *----------------*/

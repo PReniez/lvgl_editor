@@ -8,7 +8,7 @@
  *********************/
 
 #include "button_normal_gen.h"
-#include "ui_animations.h"
+#include "../../ui_animations.h"
 
 /*********************
  *      DEFINES

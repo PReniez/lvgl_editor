@@ -8,7 +8,7 @@
  *********************/
 
 #include "column_gen.h"
-#include "examples.h"
+#include "../../../examples.h"
 
 /*********************
  *      DEFINES

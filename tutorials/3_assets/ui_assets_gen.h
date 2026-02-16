@@ -23,6 +23,8 @@ extern "C" {
     #include "lvgl/lvgl.h"
 #endif
 
+
+
 /*********************
  *      DEFINES
  *********************/
@@ -88,7 +90,7 @@ void ui_assets_init_gen(const char * asset_path);
  *   POST INCLUDES
  **********************/
 
-/*Include all the widget and components of this library*/
+/*Include all the widgets, components and screens of this library*/
 #include "screens/screen_assets_gen.h"
 
 #ifdef __cplusplus

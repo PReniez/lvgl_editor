@@ -23,6 +23,8 @@ extern "C" {
     #include "lvgl/lvgl.h"
 #endif
 
+
+
 /*********************
  *      DEFINES
  *********************/
@@ -82,7 +84,7 @@ void ui_data_binding_init_gen(const char * asset_path);
  *   POST INCLUDES
  **********************/
 
-/*Include all the widget and components of this library*/
+/*Include all the widgets, components and screens of this library*/
 #include "components/round_button_gen.h"
 #include "components/sliderbox_gen.h"
 #include "screens/screen_data_bindings_gen.h"

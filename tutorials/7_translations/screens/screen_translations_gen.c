@@ -8,7 +8,7 @@
  *********************/
 
 #include "screen_translations_gen.h"
-#include "ui_translations.h"
+#include "../ui_translations.h"
 
 /*********************
  *      DEFINES

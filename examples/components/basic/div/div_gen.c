@@ -8,7 +8,7 @@
  *********************/
 
 #include "div_gen.h"
-#include "examples.h"
+#include "../../../examples.h"
 
 /*********************
  *      DEFINES

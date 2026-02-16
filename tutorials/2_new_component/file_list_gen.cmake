@@ -1,6 +1,6 @@
 list(
   APPEND
-  PROJECT_SOURCES
+  LV_EDITOR_PROJECT_SOURCES
   ${CMAKE_CURRENT_LIST_DIR}/components/buttons/button_normal_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/components/buttons/button_warning_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/components/section_gen.c

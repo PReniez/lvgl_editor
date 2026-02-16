@@ -8,7 +8,7 @@
  *********************/
 
 #include "screen_animations_gen.h"
-#include "ui_animations.h"
+#include "../ui_animations.h"
 
 /*********************
  *      DEFINES

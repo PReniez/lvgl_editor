@@ -8,7 +8,7 @@
  *********************/
 
 #include "card_header_gen.h"
-#include "examples.h"
+#include "../../../examples.h"
 
 /*********************
  *      DEFINES

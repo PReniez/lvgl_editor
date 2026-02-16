@@ -8,7 +8,7 @@
  *********************/
 
 #include "row_gen.h"
-#include "examples.h"
+#include "../../../examples.h"
 
 /*********************
  *      DEFINES
